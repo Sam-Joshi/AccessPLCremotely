@@ -1,0 +1,78 @@
+body {
+    background: whitesmoke;
+}
+
+.full-page {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(bg.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.Rlogin_Remote {
+    margin-top: 5%;
+    background: #fff;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 1px;
+    box-shadow: 0px 1px 36px 5px rgba(0, 0, 0, 0.28);
+    border-radius: 5px;
+}
+
+.Remote_btn {
+    background: #fb641b;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    border: none;
+    color: #fff;
+    width: 100%;
+}
+
+.lable_txt {
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.Remote-control {
+    border-radius: 25px
+}
+
+.Rsignup_Remote {
+    background: #fff;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 1px;
+    box-shadow: 0px 1px 36px 5px rgba(0, 0, 0, 0.28);
+    border-radius: 1px;
+}
+
+.logo {
+    height: 110px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.errmsg {
+    margin: 2px auto;
+    border-radius: 5px;
+    border: 1px solid red;
+    background: pink;
+    text-align: left;
+    column-rule: purple;
+    padding: 1px;
+}
+
+.successmsg {
+    margin: 7px auto;
+    border-radius: 4px;
+    border: 1px solid green;
+    background: #33cc00;
+    text-align: left;
+    color: whitesmoke;
+    padding: 10px;
+}
